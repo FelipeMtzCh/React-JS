@@ -1,0 +1,34 @@
+.container{
+    padding: 1rem;
+    gap: 5px;
+    /* background-color: #E7F9A9; */
+    transition: all 0.3s ease;
+    max-width: 600px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.price{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+img{
+    max-width: 150px;
+}

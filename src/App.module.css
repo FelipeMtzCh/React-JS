@@ -1,33 +1,24 @@
-/* $white: #F2F2F2;
+/*
+=> COLORES <=
+
+$white: #F2F2F2;
 $light: #B8B8BF;
 $green: #1A2601;
 $darkBrown: #402C20;
 $ligthBrown: #734E40;
-$black: #0D0D0D; */
+$black: #0D0D0D;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
 }
-
-.header {
-    width: inherit;
-    height: 64px;
+.container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.CartIcon{
-    width: 24px;
-    height: 24px;
-    margin-right: 12px;
-    color: #F2F2F2;;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFF;
 }
